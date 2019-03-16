@@ -21,5 +21,5 @@ func main() {
 		log.Println("123", r.StatusCode)
 	})
 
-	c.Visit("https://examplxxxe.com/")
+	c.Visit("https://example.com/")
 }
