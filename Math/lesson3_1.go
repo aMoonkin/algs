@@ -14,6 +14,6 @@ func lesson3_1(grid int) int {
 	return sum
 }
 
-func main() {
+func hello() {
 	fmt.Println(lesson3_1(60))
 }
