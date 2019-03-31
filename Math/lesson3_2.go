@@ -10,6 +10,9 @@ func main() {
 }
 
 func getSquareRoot(n float64) float64 {
+	if n < 1 {
+		return 0
+	}
 	x := 1.0
 	y := n
 	for y-x > 0.001 {
